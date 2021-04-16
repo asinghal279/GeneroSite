@@ -1,0 +1,139 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.header
+{
+    background: #052B05 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-image: url(../images/GameOver.svg);
+    background-size: 33em;
+    background-position: right;
+    padding: 3.7em;
+    margin: 0 auto;
+
+}
+.heading h1
+{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    z-index: 1;
+    font-weight: bolder;
+}
+.game
+{
+    text-align: center;
+}
+.game img
+{
+    max-width: 90%;
+    z-index: -1;
+}
+.other
+{
+    margin: 0 auto;
+}
+.events h1
+{
+    color: #052B05;
+    text-align: center;
+    font-size: 3.2em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+.icon
+{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+.icon img
+{
+    width: 60%;
+}
+.name
+{
+    margin: 1.2em auto;
+}
+.name h2
+{
+    color: #052B05;
+    font-size: 1.6em;
+    font-weight: bold;
+    position: relative;
+    margin: 1.2em auto;
+}
+.rule
+{
+    padding: 0.4em;
+    border-right: 1px solid #052B05;
+    text-align: center;
+    color: #052B05;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.rule p
+{
+    position: relative;
+    top: 50%;
+}
+.content p
+{
+    color: black;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.box
+{   text-align: center;
+    margin: 1em 0em;
+}
+.box fieldset
+{
+    box-sizing: border-box;
+    border: 2px solid #052B05;
+    border-radius: 15px;
+}
+.box fieldset legend
+{   text-align: center;
+    color: #052B05;
+    font-size: 1em;  
+    padding: 0.6em 1em;
+    width: auto;
+    font-weight: bold;
+}
+.box fieldset p
+{   
+    color: black;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0.23em 2.3em;
+}
+fieldset ul
+{
+position: relative;
+    font-size: 0.9em;
+    margin: 0 auto;
+    padding: 1.4em 2.7em;
+    text-align: left;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+    background: #052B05 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-image: url(../images/GameOver.svg);
+    background-size: 22em;
+    background-position: right;
+    padding: 3.7em;
+    height: 62vh;
+    margin: 0 auto;
+    }
+}

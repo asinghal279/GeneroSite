@@ -1,0 +1,471 @@
+@media only screen and (min-width : 1200px){ 
+@font-face{
+	font-family: Etna;
+	src:url("etna.otf");
+}
+@font-face{
+	font-family: Brandon Grotesque;
+	src:url("Brandon.otf");
+}
+
+body {
+	background: #d3b283 url("assets/img/flash.svg");
+}
+
+
+hr {
+	display: none;
+}
+
+.mob-logo {
+	display: none;
+}
+
+.team{
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	   width: 100%;
+	   height: 100vh;
+	   z-index: 0;
+	}
+.tgen {
+	margin-top: 10vh;
+}	
+
+.tgenero {
+	margin-left: 3%;
+}
+
+.fd {
+	margin-left: 3%;
+	margin-top: 5vh;
+	margin-bottom: 25vh;
+	text-align: right;
+}
+
+.sd {
+	margin-left: 3%;
+	margin-top: 3vh;
+	margin-bottom: 25vh;
+	text-align: right;
+}
+
+.ti {
+	background: 0% 0% no-repeat padding-box;
+	width: 135px;
+	height: 135px;
+	border-radius: 127px 127px 127px 0px;
+	opacity: 1;
+}
+
+.flip-card-inner {
+  position: relative;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  background: 0% 0% no-repeat padding-box;
+	width: 145px;
+	height: 145px;
+	border-radius: 127px 127px 127px 0px;
+	opacity: 1;
+  	backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h3{
+	margin-top: 40%;
+	margin-left: 0;
+}
+
+
+.tdots {
+	margin-left: 2%;
+	width: 12vh;
+	opacity: 1;
+}
+
+
+.ourteam {
+	margin-top: 15vh;
+	position: fixed;
+	z-index: 10;
+}
+
+.clippy2{   
+    background: white 0% 0% no-repeat padding-box;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
+    opacity: 0.100;
+    position: absolute;
+
+	}	
+
+.g19 {
+	font-size: 40px;
+}	
+
+.col-sm-2 {
+	margin-left: 1%;
+}
+
+h2 {
+	font-size: 36px;
+	text-align: left;
+	margin-bottom: -0rem;
+	font-family: 'etna', regular;
+	letter-spacing: 0;
+	color: #000000;
+	opacity: 1;
+}
+
+h3 {
+	margin-left: 5%;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+}
+
+.col-sm-2{
+	margin-left: 2%;
+}
+
+
+}
+
+@media only screen and (max-width : 1200px) {
+	
+	body {
+	background: #d3b283 url("assets/img/flash.svg");
+	}
+
+	.ourteam {
+	margin-top: 15vh;
+	position: fixed;
+	z-index: 10;
+}
+
+.flip-card-back h3{
+	display: none;
+}
+
+
+	.fd {
+	margin-left: 3%;
+	margin-top: 5vh;
+	text-align: right;
+}
+
+.sd {
+	margin-left: 3%;
+	margin-top: 3vh;
+	text-align: right;
+}
+	.tgen{
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+	.tdots {
+		margin-left: 3%;
+		width: 9%;
+	}
+
+	h3 {
+	font-variant-caps: all-small-caps;
+	margin-top: 10%;
+	text-align: center;
+	font-size: 22px;
+}
+
+.tgenero {
+	margin-left: 4%;
+}
+
+	
+	hr{
+		display: none;
+	}
+	h2 {
+	font-size: 36px;
+	text-align: left;
+	margin-bottom: -0rem;
+	font-family: 'etna', regular;
+	letter-spacing: 0;
+	color: #000000;
+	opacity: 1;
+}
+
+	.ti {
+		background: 0% 0% no-repeat padding-box;
+		width: 95px;
+		height: 95px;
+		margin-top: 50%;
+		border-radius: 127px 127px 127px 0px;
+		opacity: 1;
+	}
+
+	.mob-logo {
+		display: none;
+	}
+
+	.col-sm-2{
+	margin-left: 2%;
+}
+
+    }
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+body {
+	background: #d3b283 url("assets/img/flash.svg");
+	}
+.flip-card-back h3{
+	display: none;
+}
+
+	.ourteam {
+		margin-top: 15%;
+		width: 9%;
+	}
+
+	.navbar {
+		display: none;
+	}
+
+	.tgenero {
+		margin-left: 25%;
+	}
+
+	.fd {
+		padding-left: 5%;
+	}
+
+	.sd{
+		padding-left: 5%;
+	}
+
+	.ti {
+		background: 0% 0% no-repeat padding-box;
+		width: 95px;
+		height: 95px;
+		margin-top: 50%;
+		border-radius: 127px 127px 127px 0px;
+		opacity: 1;
+	}
+	.tdots {
+		display: none;
+	}
+
+	h2 {
+	margin-left: 12px;	
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: -0rem;
+	font-family: 'etna', regular;
+	letter-spacing: 0;
+	color: #000000;
+	opacity: 1;
+}
+
+	h3 {
+	font-variant-caps: all-small-caps;
+	margin-top: 10%;
+	text-align: center;
+	font-size: 18px;
+}
+
+.col-sm-2{
+	margin-left: 2%;
+}
+	
+}
+
+
+
+@media (max-width: 768px){
+@font-face{
+	font-family: Etna;
+	src:url("etna.otf");
+}
+@font-face{
+	font-family: Brandon Grotesque;
+	src:url("Brandon.otf");
+}
+
+.flip-card-back h3{
+	display: block;
+}
+
+.flip-card-inner {
+	margin-top: 5%;
+}
+
+body {
+	background: #d3b283 url("assets/img/flash.svg");
+}
+
+.llpo{
+	margin-top: 5%;
+}
+
+.ti {
+	background: 0% 0% no-repeat padding-box;
+	width: 75px;
+	height: 75px;
+	margin-top: 5%;
+	border-radius: 127px 127px 127px 0px;
+	opacity: 1;
+}
+
+.col-sm-2{
+	margin-top: 10%;
+	margin-left: 2%;
+}
+
+
+.ourteam {
+	margin-top: 35%;
+}
+
+.tdots {
+	display: none;
+}
+
+hr {
+	width: 50%;
+	margin-top: 15%;
+	background-color: #000;
+}
+
+h2 {
+	margin-left: 12px;	
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: -0rem;
+	font-family: 'etna', regular;
+	letter-spacing: 0;
+	color: #000000;
+	opacity: 1;
+}
+
+h3 {
+	font-variant-caps: all-small-caps;
+	margin-top: 10%;
+	text-align: center;
+	font-size: 15px;
+}
+
+.mob-logo {
+	width: 12%;
+	display: block;
+	margin-left: 45%;
+}
+
+.tgenero {
+	margin-top: 8%;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+	.mob-logo {
+		width: 17%;
+    	margin-top: 0%;
+	}
+}
+
+ /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+.ti {
+	float: left;
+	background: 0% 0% no-repeat padding-box;
+	width: 95px;
+	height: 95px;
+	margin-top: -4%;
+	border-radius: 127px 127px 127px 0px;
+	opacity: 1;
+}
+
+
+
+
+.ourteam {
+	display: none;
+}
+
+.g19 {
+	margin-left: -55px;
+}
+
+h2{
+	margin-left: 10px;
+}
+
+.fd{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.sd{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+h3 {
+	margin-top: 12%;
+	font-variant-caps: all-small-caps;
+	text-align: center;
+	font-size: 22px;
+}
+
+.tgen {
+	margin-top: 0;
+}
+
+
+.mob-logo {
+	margin-left: 40vw;
+}
+
+.tgenero {
+	margin-left: 20%;
+}
+
+hr {
+	width: 50%;
+	margin-top: 15%;
+	background-color: #000;
+}
+
+    }
+
+/* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+    	.tgenero {
+    		margin-left: 2%;
+    	}
+    	h2{
+    		font-size: 25px;
+    	}
+    	.mob-logo {
+    		width: 20%;
+    	}
+    }    

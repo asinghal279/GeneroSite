@@ -1,0 +1,40 @@
+@font-face{
+  font-family: Etna;
+  src:url("etna.otf");
+}
+.navbar {
+  height: 55px;
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  -moz-backdrop-filter: blur(60px);
+  -o-backdrop-filter: blur(60px);
+  -ms-backdrop-filter: blur(60px);
+  
+}
+
+a:hover{
+  text-decoration: none;
+    color: white;  
+}
+
+.nav-link {
+  font-size: 1.20vw;
+  font-weight: 300;
+  font-family: 'etna', regular;
+  color: black;
+  opacity: 1;
+  letter-spacing: 0;
+}
+
+.navbar-brand img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding-top: 2px;
+}
+
+@media only screen and (max-width: 768px){
+  .navbar {
+    display: none;
+  }
+}

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Genero2k19</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/status.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style type="text/css">
+.blink {
+        animation: blinker 0.6s linear infinite;
+        color: #451804;
+       }
+      @keyframes blinker {
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {
+         100% { opacity: 0; }
+       }
+</style>
+
+	
+</head>
+<body>
+	<div class="col-sm-12" style="position: fixed; z-index: 1030; padding-left: 0px; padding-right: 0px;">
+	<div class="col-sm-12" style="background-image: linear-gradient(-90deg,#eb3349, #f45c43); padding-left: 0px; padding-right: 0px; height: 3.0vw;">
+		<h3 class="text-center" style="font-size: 2.8vw;font-family: 'Bangers', cursive;letter-spacing: 3px;color: white; font-weight: 900;"><marquee>Last 100 Passes left for Ashmita Theatre! Go and Grab Your Passes Now !! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last 100 Passes left for Ashmita Theatre! Go and Grab Your Passes Now !!</marquee></h3>
+
+	</div>
+	<nav class="navbar navbar-expand-md fixed-top" style="top: 2.9vw;">
+
+		<a class="navbar-brand lli" href="index.html"><img src="assets/img/logo.png" alt="Genero'19"></a>
+		<div class="collapse navbar-collapse justify-content-end">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+				   <a class="nav-link nli" href="#about-us">ABOUT US</a>
+				</li>
+				<li class="nav-item"><a class="nav-link nli" href="#college-description">COLLEGE DESCRIPTION</a></li>
+				<li class="nav-item"><a class="nav-link nli" href="#events">EVENTS</a></li>
+				<li class="nav-item"><a class="nav-link nli" href="#sponsors">SPONSORS</a></li>
+				<li class="nav-item"><a class="nav-link nli" href="#contact-us">CONTACT US</a></li>
+			</ul>
+		</div> 
+		
+	<form>
+        <div class="h-100">
+          <div class="d-flex justify-content-center h-100">
+            <div class="searchbar">
+                
+              <input class="search_input" type="text" name="search" id="search" placeholder="Search GID...">
+              <a class="search_icon"><i class="fas fa-search" onclick="search()"></i></a>
+            
+            </div>
+          </div>
+        </div>
+    </form> 
+
+
+	    <!-- <form method="POST" action="/search">
+	        <div class="h-100">
+	          <div class="d-flex justify-content-center h-100">
+	            <div class="searchbar">
+	                
+	              <input class="search_input" type="text" name="search" id="search" placeholder="Search GID...">
+	              <input name="type" type="text" id="type" value=gid hidden>
+	              <button type="submit" class="search_icon"><i class="fas fa-search"></i></button>
+	            
+	            </div>
+	          </div>
+	        </div>
+    	</form> -->
+	</nav>
+</div>
+
+	<div id="myNav" class="overlay">
+	  <!-- Button to close the overlay navigation -->
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <!-- Overlay content -->
+	  <div class="overlay-content">
+	    <a onclick="closeNav()" href="#about-us">About Us</a>
+	    <a onclick="closeNav()" href="#college-description">College Description</a>
+	    <a onclick="closeNav()" href="#events">Events</a>
+	    <a onclick="closeNav()" href="#sponsors">Sponsors</a>
+	    <a onclick="closeNav()" href="#contact-us">Contact Us</a>
+	  </div>
+	</div>
+
+	<div class="container-fluid">
+		<!-- section1 -->
+		<div class="row section1">
+			<div class="col-md-7 col-sm-7 sec1a shadow-lg">
+
+				<form>
+					<div class="d-flex justify-content-right dshow">
+					  <div class="searchbar">
+						<input class="search_input" type="text" name="search_phn" id="search_phn" placeholder="Search GID..">
+						<a class="search_icon"><i class="fas fa-search" onclick="search_phn()"></i></a>
+					  </div>
+					</div>
+				  </form>
+
+				<img class="mob-logo" src="assets/img/logo.png">
+				<div class="fb">
+					<a class="lli" href="https://www.facebook.com/genero.abesec/?__xts__[0]=68.ARDyCHth62orblbxgqMLw1Wh00Kghtu-8A8dvcS5zTkZH4nyswEkd07dj3u5MDt1pVpR7_qJFOHnlypbZB0o0IPPdVaw7MxnwVIm4NzasD5v90qNP5yyzHgtXuMhQ4c15lucAFWAURDurKj4-SkRtxMRaK2B0hEkEYGSCZ7OJPnC0Q9ueWQKGkIgW6YCCsPWUf6w0o3c4ochlduC13X781PR4Xjw_y-nMDgaY-Tjl26AX2mtMcrSh5QV9E2QhnxMgwCylxCSckcKcA"><img class="facebook" src="assets/img/facebook.png"></a>
+				</div>
+				<div class="gc">
+					<div  class="gen19">GENERO'19</div>
+					<div  class="comicon">COMICON</div>
+				</div>
+				<div class="insta">
+					<a href="https://www.instagram.com/genero.abesec/"><img class="instagram" src="assets/img/instagram.png"></a>
+				</div>
+				<h1 class="date mdate">ON 14<SUP>th,</SUP> 15<SUP>th,</SUP> 16<SUP>th</SUP> October</h1>
+				 <a href="./pages/Qr.html"><button type="button" class="mobbtn btn-rounded"><b>REGISTER NOW!</b></button></a>			
+				<div data-aos="fade-up" data-aos-duration="3000" class="marvel">
+					<img class="marvel-wallpaper" src="assets/img/marvel-wallpaper-avengers.png">
+				</div>
+			</div>
+			<div class="col-md-5 col-sm-5 sec1b">
+				
+				<div class="hamburger-icon" onclick="openNav()">
+					<div class="hamburger"></div>
+					<div class="hamburger"></div>
+					<div class="hamburger"></div>
+				</div>
+
+
+	 			<img class="mob-grid-logo" src="assets/img/mob-grid-logo.jpg">
+				<img class="scroll-img" src="assets/img/scroll.svg">
+				<img class="dots" src="assets/img/dots.png">
+				<h1 class="date ldate">ON 14<SUP>th,</SUP> 15<SUP>th,</SUP> 16<SUP>th</SUP> October</h1>
+				
+				<a class="abtn hoverable" href="./pages/Qr.html"><button type="button" class="btn btn-rounded "><b>REGISTER NOW!</b></button></a> 
+				
+				<img class="num1 justify-content-end" src="assets/img/01.png">
+				<img class="scroll-big justify-content-end" src="assets/img/scroll-big.png">
+			</div>
+		</div>
+	</div>
+
+		
+		<div class="col-lg-12 row thor2" id="about-us">
+			<div class="col-md-6 col-xs-12 text4">
+				<h1 class="heading4">ABOUT GENERO</h1>
+				<p class="content4">
+				It is a three-day fiesta that calls in for diverse events in the domain of technical, cultural, informal, literary, e-gaming, etc. packed with the topping of three Exclusive Events for each day. ABES Engineering College has been receiving a tremendous response in the form  of inflow of audience from various colleges and organisations across Delhi-NCR. Genero is indeed ABESEC's "Success Story"!
+                </p>
+                <div class="number2">
+				 02
+				</div>
+			</div>
+			<div data-aos="fade-up" data-aos-duration="3000" class="col-md-6 col-xs-12 logo4">
+				<img class="image2 img-responsive" src="cpt.png">
+			</div>
+			<div class="clippy2"></div>
+		</div>
+		
+		<div class="col-lg-12 row goku" id="college-description">
+            <div data-aos="fade-up" data-aos-duration="3000" class="col-md-6 col-xs-12 logo4">
+				<img class="image4 img-responsive" src="Group%20162.png">
+			</div>
+			<div class="col-md-6 col-xs-12 text4">
+				<h1 class="heading4">COLLEGE DESCRIPTION</h1>
+				<p class="content4">
+                    		ABESEC is a leading institution in AKTU. It has achieved excellence in academics by consistently securing the first position for consecutively 6 semesters in University academic result. The placement records for the year 2018-19 are the highest with 1300+ job offers for Engineering and Management students.
+				</p>
+			</div>
+			<div class="number1" style="margin-right: 3%;">03</div>
+			<div class="clippy4"></div>
+		</div>
+
+		<div class="col-lg-12 row thor2" id="events">
+			<div class="col-md-6 col-xs-12 text4">
+				<h1 class="heading4">DEPARTMENT EVENTS</h1>
+				<p class="content4">
+					  "TECHNO IS A MUSIC THERAPY"<br>
+					  A multiverse of ideas bounded into a three-day fiesta, TECHNO & CULTURAL goes hand in hand to present before the students a stage, a platform to showcase their skills and potential. It is not just about winning and losing in the competitions, in reality, it is a perfect way to learn things that'll help you experience the unbelievable and the unimaginable. 
+				</p>
+				<!----
+				<button class="explore1">EXPLORE</button>--->
+				<div class="number2">
+				04
+				</div>
+			</div>
+			<div data-aos="fade-up" data-aos-duration="3000" class="col-md-6 col-xs-12">
+				<img class="image2 img-responsive" src="thor.png">
+			</div>
+			
+			<div class="clippy8"></div>
+
+				<div class="row devents">
+					<div class="col-sm-12">
+						<div data-aos="flip-left" data-aos-duration="2000" class="row">
+							<div class="col-sm-4">
+								<div class="diamond">
+									<a href="pages/mba.html" class="hvr-float-shadow"><h3 class="evntext evntext1">MBA</h3></a>
+								</div>
+							</div>
+							<div class="col-sm-4 dmv">
+								<div class="diamond">
+									<a href="pages/informals.html" class="effect-underline"><h3 class="evntext">Informals</h3></a>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="diamond">
+									<a href="pages/techcs.html" class="effect-underline"><h3 class="evntext">Tech CS</h3></a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-right" data-aos-duration="2000" class="row sd">
+							<div class="col-sm-4">
+								<div class="diamond">
+									<a href="pages/egaming.html" class="effect-underline"><h3 class="evntext">E-Gaming</h3></a>
+								</div>
+							</div>
+							<div class="col-sm-4 sdu">
+								<div class="diamond">
+									<a href="pages/techce.html" class="effect-underline"><h3 class="evntext">Tech CE</h3></a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-left" data-aos-duration="2000" class="row">
+							<div class="col-sm-4">
+								<div class="diamond">
+									<a href="pages/mca.html" class="effect-underline"><h3 class="evntext evntext1">MCA</h3></a>
+								</div>
+							</div>
+							<div class="col-sm-4 dmv">
+								<div class="diamond">
+									<a href="pages/literary.html" class="effect-underline"><h3 class="evntext">Literary</h3></a>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="diamond">
+									<a href="pages/TechMe.html" class="effect-underline"><h3 class="evntext">Tech ME</h3></a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-right" data-aos-duration="2000" class="row sd">
+							<div class="col-sm-4">
+								<div class="diamond">
+									<a href="pages/techee.html" class="effect-underline"><h3 class="evntext">Tech EE</h3></a>
+								</div>
+							</div>
+							<div class="col-sm-4 sdu">
+								<div class="diamond">
+									<a href="pages/cultural.html" class="effect-underline"><h3 class="evntext">Cultural</h3></a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-left" data-aos-duration="2000" class="row">
+							<div class="col-sm-4 dsal">
+								
+							</div>
+							<div class="col-sm-4 spdu">
+								<div class="diamond">
+									<a href="pages/photography.html" class="effect-underline"><h3 class="evntext" style="padding-top: 44%; margin-left: -34px;">Photography</h3></a>
+								</div>
+							</div>
+							<div class="col-sm-4 dsal">								
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		<section class="statistic-section">
+	        <div class="container">
+	            <div class="row text-center">
+	                <div class="col-xs-12 col-sm-6">                   
+	                    <h4 class="mteam">View Our Marvellous Team</h4>
+	                </div>
+	                <div class="col-xs-12 col-sm-6">
+	                    <button class="explore1 vteam" onclick="window.location.href='pages/teamnew.html';">View Team</button>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+
+	    <div class="col-lg-12 row goku" id="college-description" style="background: #11ABFA">
+            <div data-aos="fade-up" data-aos-duration="3000" class="col-md-6 col-xs-12 logo4">
+				<img class="image4 img-responsive" src="Deadpool.svg">
+			</div>
+			<div class="col-md-6 col-xs-12 text4">
+				<h1 class="heading4">TICKET PRICING</h1>
+				<div class="d-flex justify-content-between align-items-center" style="padding-top: 150px">
+					<div class="row">
+					<div class="col-sm-5 col-xs-12 text-center" style="color: white; padding-right: 0px;padding-left: 0px;">
+						<span style="font-size: 25px; font-family: Etna;">COMBO PACK</span>
+						<span style="font-size: 45px; font:font:Regular 96px/137px Brandon Grotesque;">&#8377;</span><span style="font-size: 45px;">800</span>
+					</div>
+					<div class="col-sm-7 col-xs-12 border1 text-center" style="padding-left:30px;font-family: Etna; color: white; font-size: 25px;">
+						<div class="d-flex justify-content-between">
+							<span>ALL EVENTS</span>
+							<span>SA-DAY2</span>
+						</div>
+						<div class="d-flex justify-content-between">
+							<span>T-SHIRT</span>
+							<span>SA-DAY3</span>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="clippy2"></div>
+		</div>
+
+		<div class="col-lg-12 row sponsers1" id="sponsors">
+            <div class="col-lg-12 text-right">
+                <h1 class="headsponsers1">SPONSORS</h1>
+            </div>
+            <div class="row logo1">
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-md-3">
+                	<img class="img-responsive sp1" src="PNB.png">
+                	<h5>Punjab National Bank</h5>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-md-3">
+                	<img class="img-responsive sp1 lp1" src="eod.jpg">
+                	<h5 class="mspon">every other day</h5>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-md-3">
+                	<img class="img-responsive sp1 " src="dexpress.jpg">
+                	<h5 style="margin-left: 4%;">DE|DU Express</h5>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-md-3">
+                	<img class="img-responsive sp1 lp1" src="virat.jpg">
+                	<h5 class="mspon">Virat India News</h5>
+                </div>
+            </div>
+            <div class="row logo1" style="margin-top: 5%;">
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-md-3">
+                	<img class="img-responsive sp1" src="hellointern.jpeg">
+                	<h5>Hello Intern</h5>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-md-3">
+                	<img class="img-responsive sp1 lp1" src="worldsofwonder.jpeg">
+                	<h5 class="mspon">Worlds Of Wonder</h5>
+                </div>
+            </div>
+            <div class="row col-lg-12 foot1">
+                <div class="number1">05</div>
+            </div>
+            <div class="col-lg-12 clippy1">
+            </div>
+        </div>
+
+
+
+
+
+
+<!-------footer---------->
+		<footer class="page-footer font-small pt-4" id="contact-us">
+		  <div class="text-center text-md-left">
+		  	<div class="row fm">
+		  		<div class="col-md-2"></div>
+		  		<div class="col-md-8">
+		  			<center><img class="blogo" src="black-logo.png"></center>
+		  			<h3 class="text-center">CONTACT US</h3>
+		  		</div>
+		  		<div class="col-md-2"></div>
+		  	</div>
+
+		    <div class="row mf">
+		      <hr class="clearfix w-100 d-md-none">
+		      <div class="col-md-2"></div>
+		      <div class="col-md-3 mx-auto">
+		      	<h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: white; text-align: center;">Links</h5>
+		      	<div class="row">
+		      		<ul class="list-unstyled col-md-8">
+		          <li>
+		            <a class="fli" href="#about-us">About Us</a>
+		          </li>
+		          <li>
+		            <a class="fli" href="#college-description">College Description</a>
+		          </li>
+		        </ul>
+		        <ul class="list-unstyled col-md-4"> 
+		          <li>
+		            <a class="fli" href="#events">Events</a>
+		          </li>
+		          <li>
+		            <a class="fli" href="#sponsors">Sponsors</a>
+		          </li>
+		        </ul>
+		      	</div>
+		      </div>
+		 	  <div class="vl"></div>
+
+		      <hr class="clearfix w-100 d-md-none">
+		      <div class="col-md-4 mx-auto">
+		        <h5 class="font-weight-bold text-center text-uppercase mt-3 mb-4" style="color: white;">Get In Touch</h5>
+		        <ul class="list-unstyled ll">
+		          <li>
+		          	<i class="fas fa-map-marker-alt"></i>
+		            <a class="fli" href="https://www.google.com/maps/place/ABES+Engineering+College/@28.6342753,77.4433455,17z/data=!3m1!4b1!4m5!3m4!1s0x390cee22c60837b7:0x7c35343eceb7bde0!8m2!3d28.6342753!4d77.4455342" style="cursor: pointer;">Abes Engineering college, Ghaziabad, Uttar Pradesh</a>
+		          </li>
+		          
+		          
+		          <li>
+		          	<i class="fas fa-link"></i>
+		            <a class="fli" href="https://www.abes.ac.in/" style="cursor: pointer;">https://www.abes.ac.in/</a>
+		          </li>
+		        </ul>
+		      </div>
+		      <div class="col-md-2"></div>
+		      <hr class="clearfix w-100 d-md-none">
+		    </div>
+
+		    <div class="row mf">
+		      <div class="col-md-2"></div>
+		      <div class="col-md-8 mx-auto">
+		      	<h5 class="font-weight-bold text-uppercase text-center mt-3 mb-4" style="color: white;">Happy To Help!</h5>
+		      	<div class="row">
+			      	<div class="col-md-3 gsjs">
+			      		<b>General Secretary</b><br>
+			      		Kartikeya Singh<br>
+			      		8853007600
+			      	</div>
+			      	<div class="col-md-3 gsjs">
+			      		<b>Joint Secretary</b><br>
+			      		Kunal Tyagi<br>
+			      		8791641256
+			      	</div>
+			      	<div class="col-md-3 gsjs">
+			      		<b>Joint Secretary</b><br>
+			      		Akanksha Bhadauria<br>
+			      		7009055072
+			      	</div>
+			      	<div class="col-md-3 gsjs">
+			      		<b>Joint Secretary</b><br>
+			      		Priyanshu Tyagi<br>
+			      		9193915972
+			      	</div>
+		      	</div>
+		      </div>
+		      <div class="col-md-2"></div>
+		    </div>
+		  </div>
+		  <br>
+		  <hr class="clearfix w-100 d-md-none">
+		  <div class="footer-copyright text-center py-3">
+		    Copyright © 2019- All Right Reserved
+		  </div>
+		</footer>
+	
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
+		<script>
+        var fullUrl = window.location.href;
+        if ((fullUrl.split("?")[1]).split("=")[1] == "null") {
+            alert("NO RESULT FOUND");
+        }
+    </script>
+
+    <script>
+		function openNav() {
+		  document.getElementById("myNav").style.width = "100%";
+
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
+	<script>
+        var fullUrl = window.location.href;
+		var gid = (fullUrl.split("?")[1]).split("=")[1];
+		
+       if(gid) {
+			
+            var url = "/search/"+gid;
+            location.href = url ;
+			
+        }
+		
+        function search(){
+		var srch = document.getElementById('search').value;
+		if(srch){
+		
+        var url1 = "/search/"+srch;
+            location.href = url1 ;
+			}
+		}
+		function search_phn(){
+		var srch_phn = document.getElementById('search_phn').value;
+		if(srch_phn){
+		
+        var url_phn = "/search/"+srch_phn;
+            location.href = url_phn ;
+			}
+        }
+    </script>
+
+
+</body>
+</html>

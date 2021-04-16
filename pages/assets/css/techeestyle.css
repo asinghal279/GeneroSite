@@ -1,0 +1,179 @@
+  body
+{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+@font-face{
+    font-family: Etna;
+    src:url("etna-free-font.otf");
+}
+.header
+{
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-image: url(../images/Smudge.svg);
+    background-size: 33em;
+    background-position: center;
+    padding: 3.7em;
+    margin: 0 auto;
+
+}
+.heading h1
+{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    z-index: 1;
+    font-weight: bolder;
+}
+.game
+{
+    text-align: center;
+}
+.game img
+{
+    max-width: 90%;
+    z-index: -1;
+}
+.other
+{
+    margin: 0 auto;
+}
+.events h1
+{
+    color: #403347;
+    text-align: center;
+    font-size: 3.2em;
+    padding: 0.5em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+.icon
+{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3em 1em;
+    margin: 100px auto 0;
+}
+
+.name
+{
+    margin: 1.2em auto;
+}
+.name h2
+{
+    color: #403347;
+    font-size: 1.6em;
+    font-weight: bold;
+    position: relative;
+    margin: 1.2em auto;
+    font-family: Etna;
+}
+
+.content p
+{
+    color: black;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.box
+{   text-align: center;
+    margin: 1em 0em 3em;
+}
+.box fieldset
+{
+    box-sizing: border-box;
+    border: 2px solid #403347;
+    border-radius: 15px;
+}
+.box fieldset legend
+{   text-align: center;
+    color: #403347;
+    font-size: 1em;  
+    padding: 0.6em 1em;
+    width: auto;
+    font-weight: bold;
+}
+.box fieldset p
+{   
+    color: black;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0.23em 2.3em;
+}
+fieldset ul
+{
+    position: relative;
+    font-size: 0.9em;
+    margin: 0 auto;
+    padding: 1.4em 0.7em;
+    text-align: justify;
+    list-style-type: circle;
+}
+
+#centre{
+
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .header
+{
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-image: url(../images/Smudge.svg);
+    background-size: 33em;
+    background-position: center;
+    padding: 3.7em;
+    margin: 0 auto;
+    position: relative;
+
+}
+.heading h1
+{
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    z-index: 1;
+    font-weight: bolder;
+}
+.game
+{
+    text-align: center;
+}
+.game img
+{
+    max-width: 90%;
+    z-index: 0;
+    position: relative;
+    top: 10%;
+}
+.events h1
+{
+    color: #403347;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+.icon
+{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1em 1em;
+    margin: 50px auto 0;
+}
+#small{
+    width: 70%;
+}
+
+}

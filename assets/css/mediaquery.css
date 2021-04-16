@@ -1,0 +1,1030 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+.dots{
+		margin-left: 60%;
+	}
+	.dshow {
+		display: none !important;
+	}
+.mdate {
+	display: none		;
+}
+
+.ldate{
+	font-size: 22px ;
+}
+
+.scroll-big{
+	margin-top: 5%;;
+}
+
+}
+
+@media only screen and (max-width : 1200px) {
+	.dots{
+		margin-left: 60%;
+	}
+
+	.gc {
+		margin-top: 25%;
+	}
+	.marvel-wallpaper {
+		margin-top: 12%;
+	}
+
+	
+
+
+
+
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.dshow {
+		display: none !important;
+	}
+
+	.mdate{
+		display: none;
+	}
+
+	.ldate{
+		font-size: 22px ;
+	}
+
+	
+.scroll-big{
+	margin-top: 3%;;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.dots{
+		margin-top: 32%;
+		margin-left: 45%;
+	}
+	.mdate{
+		display: none;
+	}
+.overlay {
+	display: none;
+}
+
+.dshow {
+	display: none !important;
+}
+
+.ldate{
+	font-size: 22px ;
+}
+
+
+.scroll-big{
+	font-size: 19px;
+    margin-left: 23%;
+}
+
+.btn {
+	z-index: 1;
+	font-size: 1.3vw;
+	width: 25vw;
+	height: 7vh;
+	margin-top: 5vh;
+	float: right;
+	margin-right: 10%;
+	background: #FFFFFF no-repeat;
+	border-radius: 40px;
+	opacity: 100%;
+	box-shadow: 0 15px 15px grey;
+	}
+
+	.num1 {
+		margin-top: 30%;
+	}
+
+
+	.gc {
+		font-family: 'fredoka one';
+		margin-top: 50%;
+	}
+
+	.marvel-wallpaper {
+		margin-top: 10%;
+	}
+}
+
+@media (max-width: 768px){
+
+	.dots{
+		width: 50%;
+		margin-left: 45%;
+	}
+	.gc {
+		font-family: 'fredoka one';
+		margin-top: 50%;
+	}
+
+	.btn {
+		width: 25vw;
+	}
+
+	.marvel-wallpaper {
+		margin-top: 20%;
+	}
+
+	.scroll-big {
+		margin-top: 10%;
+	}
+
+	.fb {
+		margin-top: 25%;
+	}
+
+	.insta{
+		margin-top: 7%;
+	}
+
+	.lli{
+		background:transparent;
+	}
+
+	.abtn{
+		font-size: 15px;
+	}
+.thor2{
+	box-shadow: 0px 3px 54px #00000061;
+}
+
+.sponsers1 {
+	z-index: -1;
+}
+
+
+}
+ 
+@media (min-width: 576px) and (max-width: 768px){
+	
+	.navbar {
+		display: none;
+	}
+
+	.date{
+		font-size: 16px;
+		font-family: 'fredoka one';
+		letter-spacing: 0;
+		color: #000000;
+		opacity: 1;
+		margin-bottom: -1.5rem;
+		margin-left: 42px;
+		margin-top: -2px;
+	}
+
+	h5{
+		text-align: left;
+	    margin-top: 4%;
+	    font-family: 'Brandon Grotesque', bold;
+	    font-size: 16px;
+	    letter-spacing: 0;
+	    color: #232323;
+	    opacity: 1;
+	}
+
+	.logo1{
+		margin-left: 15%;
+	}
+	.mspon{
+		text-align: center;
+		margin-left: 12%;
+	}
+	
+
+	.gc {
+		margin-left: 20%;
+		margin-top: 10vh;
+	}
+
+	.gen19 {
+		font-family: 'fredoka one';
+		font-size: 45px;
+	}
+
+	.comicon {
+		font-family: 'fredoka one';
+		font-size: 30px;
+	}
+
+	.mobbtn {
+		display: none;
+	}
+
+	.section1{
+		z-index: 0;
+	}
+
+	.num1{
+		display: none;
+	}
+
+	.marvel-wallpaper {
+ 		vertical-align: bottom;
+ 		margin-top: 10%;
+ 	    width: 150%;
+	}
+
+	.marvel {
+	 	    overflow: hidden;
+	 	    direction: rtl;
+	 	  	width: 125%;
+
+			margin-left: 0;
+			padding-left: 0;
+	 }	
+
+	 .mob-grid-logo {
+		display: none;
+	}
+
+	.scroll-img {
+		display: none;
+	}
+	.facebook {
+		margin-left: 135%;
+	}
+	.scroll-big {
+		margin-left: 80%;
+	}
+
+	.insta {
+		margin-left: 5%;
+	}
+
+	.col-md-7, .col-md-5, .col-sm-7, .col-sm-5 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.mob-logo {
+		float: right;
+		width: 25%;
+		margin-top: 10%;
+		margin-right: 15%;
+	}
+
+	.evntext1 {
+    padding-left: 5%;
+}
+
+.evntext {
+    transform: rotate(-45deg);
+    font-family: Etna, Etna;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    padding-top: 35%;
+    margin-left: -35%;
+    opacity: 1;
+}
+
+.sdu {
+	margin-top: 0;
+}
+
+.dmv {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.devents , .col-sm-4 {
+    width: 50%;
+}
+
+.diamond {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+    transform: rotate(45deg);
+    background: 0% 0% no-repeat padding-box padding-box rgb(46, 137, 255);
+    margin: 30px;
+}
+
+.explore1{
+	    width: 68%;
+    left: 35%;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: .97;
+  background-color: #0a0a0a;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.thor2{
+	box-shadow: 0px 3px 54px #00000061;
+}
+
+.sponsers1 {
+	z-index: -1;
+}
+
+.searchbar{
+    margin-top: 12px;
+    margin-left: 10px; 
+    /* padding-left: 0; */
+    /* height: 33px; */
+    /* float: left; */
+    background-color: #e3e3e3;
+    border-radius: 25px;
+    padding: 4px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    width: 0;
+    background: none;
+    caret-color:transparent;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 150px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 25px;
+    width: 25px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:black;
+    }
+    .fa-search {
+        margin-left: 5%;
+	}
+	
+	.mdate{
+		display: none;
+	}
+
+}
+
+
+@media (min-width: 481px) and (max-width: 575px) {
+	
+	.navbar {
+		display: none;
+	}
+	.logo1{
+		margin-left: 15%;
+	}
+
+	.section1{
+		z-index: 0;
+	}
+
+	.date{
+		font-size: 13px;
+		font-family: 'fredoka one';
+		letter-spacing: 0;
+		color: #000000;
+		opacity: 1;
+		margin-bottom: -1.5rem;
+		margin-left: 13px;
+		margin-top: 5px;
+	}
+
+	.mob-logo {
+	margin-top: 15%;
+    width: 23%;
+    display: block;
+    margin-left: 50%;
+}
+
+.searchbar{
+    margin-top: 12px;
+    margin-left: 10px; 
+    /* padding-left: 0; */
+    /* height: 33px; */
+    /* float: left; */
+    background-color: #e3e3e3;
+    border-radius: 25px;
+    padding: 4px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    width: 0;
+    background: none;
+    caret-color:transparent;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 150px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 25px;
+    width: 25px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:black;
+    }
+    .fa-search {
+        margin-left: 5%;
+    }
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: .97;
+  background-color: #0a0a0a;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+
+	h5{
+		text-align: left;
+	    margin-top: 4%;
+	    font-family: 'Brandon Grotesque', bold;
+	    font-size: 16px;
+	    letter-spacing: 0;
+	    color: #232323;
+	    opacity: 1;
+	}
+
+	.mspon{
+		text-align: center;
+		margin-left: 25%;
+	}
+
+	.btn {
+		display: none;
+	}
+	.scroll-big{
+		display: none;
+	}
+
+
+	.gc {
+		margin-left: 20%;
+		margin-top: 5vh;
+	}
+
+	.gen19 {
+		font-family: 'fredoka one';
+		font-size: 45px;
+	}
+
+	.comicon {
+		font-family: 'fredoka one';
+		font-size: 30px;
+	}
+
+	.mobbtn {
+		float: right;
+		font-size: 2vw;
+		width: 55%;
+		height: 5vh;
+		margin-top: 10%;
+		margin-right: 2%;
+		background: #FFFFFF no-repeat;
+		border-radius: 30px;
+		opacity: 1;
+		box-shadow: 0 1px 1px grey;
+	}
+
+	.fb{
+		display: none;
+	}
+
+	.insta {
+		display: none;
+	}
+
+	.dots{
+		display: none;
+	}
+
+	.num1{
+		display: none;
+	}
+
+	.marvel-wallpaper {
+ 		vertical-align: bottom;
+ 		margin-top: 0;
+ 	    width: 150%;
+	}
+
+	.marvel {
+	 	    overflow: hidden;
+	 	    direction: rtl;
+	 	  	width: 125%;
+
+			margin-left: 0;
+			padding-left: 0;
+	 }	
+
+	 .mob-grid-logo {
+		width: 18vw;
+		height: 25vh;
+		margin-left: 10%;
+		margin-top: 20vh;
+	}
+
+	.scroll-img {
+		width: 5.4vw;
+		margin-top: 50%;
+		float: right;
+	}
+	.col-md-7, .col-md-5, .col-sm-7, .col-sm-5 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.evntext1 {
+    padding-left: 5%;
+}
+
+.evntext {
+    transform: rotate(-45deg);
+    font-family: Etna, Etna;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    padding-top: 35%;
+    margin-left: -35%;
+    opacity: 1;
+}
+
+
+.devents , .col-sm-4 {
+    width: 50%;
+}
+
+.diamond {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+    transform: rotate(45deg);
+    background: 0% 0% no-repeat padding-box padding-box rgb(46, 137, 255);
+    margin: 30px;
+}
+.thor2{
+	box-shadow: 0px 3px 54px #00000061;
+}
+
+.sponsers1 {
+	z-index: -1;
+}
+
+.mdate{
+	display: none;
+}
+
+} 
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	@font-face {
+    font-family: BadaBoom BB;
+    src:url("../fonts/BADABB_.ttf");
+}
+
+h3 b {
+	font-size: 18px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: .97;
+  background-color: #0a0a0a;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.thor2{
+	box-shadow: 0px 3px 54px #00000061;
+}
+
+.navbar {
+		display: none;
+	}
+.dsal {
+		display: none;
+	}
+
+.spdu {
+		    margin-left: 50%;
+    margin-top: -45%;
+	}
+
+.logo1{
+		margin-left: 5%;
+	}
+
+	h5{
+		text-align: left;
+	    margin-top: 4%;
+	    font-family: 'Brandon Grotesque', bold;
+	    font-size: 16px;
+	    letter-spacing: 0;
+	    color: #232323;
+	    opacity: 1;
+	}
+
+	.mspon{
+		text-align: center;
+		margin-left: 30%;
+	}
+	
+	.mob-logo {
+		margin-left: 35%;
+		margin-top: 4vh;
+		width: 20vw;
+	}
+
+	.flip-card-inner {
+		margin-top: 22%;
+	}
+
+	.section1 {
+		z-index: 0;
+		height: 100vh;
+		
+	}
+
+	.gc {
+		margin-left: 30%;
+		margin-top: 20%;
+	}
+
+	.gen19 {
+		font-family: 'fredoka one';
+		font-size: 40px;
+	}
+
+	.comicon {
+		font-family: 'fredoka one';
+		letter-spacing: 3px;
+		font-size: 28px;
+	}
+
+	.col-md-7, .col-md-5, .col-sm-7, .col-sm-5 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.btn {
+		
+		display: none;
+	}
+
+	.dots {
+		display: none;
+	}
+
+	.facebook {
+		display: none;
+	}
+
+	.instagram {
+		display: none;
+	}
+
+	.num1 {
+		display: none;
+	}
+
+	.scroll-big {
+		display: none;
+	}
+
+
+	.mobbtn {
+		float: right;
+		font-size: 2vw;
+		width: 55%;
+		height: 5vh;
+		margin-top: 10%;
+		margin-right: 2%;
+		background: #FFFFFF no-repeat;
+		border-radius: 30px;
+		opacity: 1;
+		box-shadow: 0 1px 1px grey;
+	}
+
+	.mob-grid-logo {
+		width: 15vw;
+    height: 23vh;
+    margin-left: 10%;
+    margin-top: 40vh;
+	}
+
+	.date {
+		margin-top: 5%;
+		width: 100%;
+		margin-left: 14%;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.scroll-img {
+		width: 6.4vw;
+		margin-top: 60vh;
+		float: right;
+	}
+	
+ 	.marvel-wallpaper {
+ 		vertical-align: bottom;
+ 		margin-top: 14%;
+ 	    width: 230%;
+ 	    z-index: 1;
+	}
+ 
+	.marvel {
+	 	    overflow: hidden;
+	 	    direction: rtl;
+	 	  	width: 118%;
+
+			margin-left: 0;
+			padding-left: 0;
+	 }	
+
+	 .evntext1 {
+    padding-left: 5%;
+}
+
+.evntext {
+    transform: rotate(-45deg);
+    font-family: Etna, Etna;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    padding-top: 42%;
+    margin-left: -35%;
+    opacity: 1;
+}
+
+
+.devents , .col-sm-4 {
+    width: 50%;
+}
+
+.diamond {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+    transform: rotate(45deg);
+    background: 0% 0% no-repeat padding-box padding-box rgb(46, 137, 255);
+    margin: 30px;
+}
+
+.explore1{
+	margin-top: 10%;
+	width: 50%;
+    left: 25%;
+}
+
+.sponsers1 {
+	padding-top: 5%;
+	z-index: -1;
+	padding-top: 5%;
+    z-index: -1;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    background-position-y: center; 
+    background-size: auto;
+    background-size: 100% 45%;
+}
+
+.clippy8{
+	clip-path: polygon(0 18%, 0 0, 100% 24%, 100% 41%);
+}
+
+.clippy2{
+	clip-path: polygon(0 37%, 0 0, 100% 67%, 100% 100%);
+}
+
+.image4{
+	height: 320px;
+}
+
+.image2{
+	margin-top: -260%;
+}
+
+.mobbtn a:hover {
+	color: black;
+}
+
+.searchbar{
+    margin-top: 12px;
+    margin-left: 10px; 
+    /* padding-left: 0; */
+    /* height: 33px; */
+    /* float: left; */
+    background-color: #e3e3e3;
+    border-radius: 25px;
+    padding: 4px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    width: 0;
+    background: none;
+    caret-color:transparent;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 150px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 25px;
+    width: 25px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:black;
+    }
+    .fa-search {
+        margin-left: 5%;
+	}
+	
+	.ldate{
+		display: none;
+	}
+
+
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	.ldate{
+		display: none;
+	}
+}
